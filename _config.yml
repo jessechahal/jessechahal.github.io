@@ -1,1 +1,338 @@
-theme: jekyll-theme-slate
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jesse Chahal
+title: Senior Software Engineer
+email: jesse@jessechahal.com
+#website: jessechahal.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  jessechahal
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: jessechahal
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: jessechahal.com
+  icon: fas fa-globe
+  url: jessechahal.com
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  During my career I have been in roles as a Software Engineer, DevOps Engineer, and a Software Engineer in Test. Most of my career I have been focused on the backend and server related development. I am passionate about software and often find my weekends spent researching both old and new technologies.
+
+  I am most skilled in: <mark>AWS</mark>, <mark>Kubernetes</mark>, <mark>Java</mark>, and <mark>Python</mark>.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Absolute software
+        link: https://www.absolute.com/
+        # link_text: boringcompany.com
+        sub_title: Senior Devops Engineer
+        caption: Jul 2019 - Dec 2019
+        quote: >
+          Absolute software is a software security company that focuses on visibility and control of hardware endpoints. They have been in the business for over 20 years and is the only company with true endpoint persistence software that ships out of the box on most computer hardware.
+        description: | # this will include new lines to allow paragraphs
+          <b>Accomplishments</b>
+            - Created Helm charts and the docker images they referenced
+            - Implemented reusable jenkins pipeline libraries
+            - Help to lead transition to AWS from private data centers
+            - Ensuring AWS usage was meeting best practices and compliances such as: GDPR, SOCKS2, CIS Benchmark, etc..
+            - Wrote Terraform scripts against AWS 
+            - Performed basic penetration testing during company wide capture the flag competitions
+          
+          <mark>Technology Stack</mark><br>
+          Kubernetes, Helm, AWS, AWS EKS, Terraform, Rancher, Docker, Ansible, GoLang, Jenkins Pipelines, Groovy, Grafana, Elasticsearch, Kibana, Prometheus, MongoDB, Python, Gradle, Maven, Artifactory, Spring Boot, Java8, Git, AtLassian (Bitbucket, Confluence, Jira), Jetbrains (IntelliJ, PyCharm, GoLand), Linux, MacOS, Windows
+          
+      - layout: left
+        title: Calabrio Inc.
+        link: https://www.calabrio.com/
+        # link_text: boringcompany.com
+        sub_title: Backend DevOps Engineer - Contractor
+        caption: May 2017 - Dec 2018
+        quote: >
+          Calabrio is revolutionizing the way enterprises engage their customers with Calabrio ONE®, a unified suite—including call recording, quality management, workforce management, voice-of-the-customer analytics and advanced reporting. The Vancouver office focuses on data analytics and advanced reporting.
+        description: | # this will include new lines to allow paragraphs
+          <b>Accomplishments</b>
+          - Wrote new Rest Api's following the Richardson Rest Maturity model
+          - Designed new micro-services that can be deployed in cloud SaaS and on-premise environments
+          - Maintained and extended the CI/CD pipeline as new services and requirements were introduced
+          - Transitioned AWS infrastructure to work similarly in on-premise environments
+          - Resolved customer escalations on both cloud and on-premise deployment
+          - Managed production deployments and unforeseen downtime
+          - Wrote and maintained operations tooling for managing AWS Cloud environments
+          - Implemented authentication bridges between OpenID Connect 1.0 and legacy authentication protocols
+          - Traveled to other cities to train implementation engineers
+          - Integrated existing software systems with both new custom systems and 3rd party solutions
+          - Worked a combination of remote and in-office based on current needs
+          
+          <mark>Technology Stack</mark><br>
+          AWS, AWS ECS, docker, docker swarm, ESXi, HyperV, java8, javaEE, python, javascript, gradle, maven, pypi, dropwizard, wildfly, jenkins, rabbitMQ, redis, protobuf, boto3, elasticsearch, postgres, DynamoDB, eclipse, github, sensu, artifactory, pagerduty, slack, jira, confluence
+        
+      - layout: left
+        title: Stytch Inc.
+        #link: https://www.example.com/
+        # link_text: boringcompany.com
+        sub_title: Software Engineer
+        caption: Jun 2015 - Feb 2017
+        quote: >
+          Stytch is a cloud based data analytics platform with flexible self-service data preparation tools. Stytch is backed by Dun & Bradstreet, the world’s leading source of business information for over 175 years.
+        description: | # this will include new lines to allow paragraphs
+          As a software engineer on the core platform team much of my time was focused on the development of Restful api’s and integration with our custom BI analytics engine. During a transition period our DevOps team had parted ways and much of my focus became working on operations related work.
+
+          <b>Accomplishments</b>
+            - Implemented a new security and identity service with support for OpenID Connect 1.0 (OAuth2) and SAML
+            - Wrote new Rest Api's following the Richardson Rest Maturity model
+            - Led the transition of AWS infrastructure from virtual machines to docker
+            - Wrote the initial version of an On-premises stack while leveraging docker and related tools
+            - Wrote and initial framework for Java based micro-services using dropwizard and gradle
+            - Helped integrate communication with other services using protobuf and RabbitMQ
+            - Used Ansible to create application machine images for reuse
+            - Performed both downtime and 0-downtime production deployments, led the very first production deployment of Stytch
+            - Responded to production incidents through pagerduty while on call
+            - Transitioned from our custom python+boto server orchestration code to AWS Cloudformation
+            - Acted as the scrum master for my team
+            - Worked with our cross-functional continuous integration team to create our jenkins build pipeline
+            - Was the leader of the Ministry of Fun, responsible for planning team building events
+            
+            <mark>Technology Stack</mark><br>
+            java8, javaEE, python, AWS, docker, docker-compose, gradle, maven, jenkins, OpenID Connect 1.0, OAuth2, OAuth1, pypi, dropwizard, wildfly, travis, rabbitMQ, redis, protobuf, boto3, ansible, elasticsearch, mysql, postgres, eclipse, github, sensu, artifactory, pagerduty, slack, jira, confluence
+      - layout: left
+        title: Dun & Bradstreet - Cloud Innovation Center
+        link: https://www.dnb.com/
+        # link_text: boringcompany.com
+        sub_title: Software Quality Engineer
+        caption: Sep 2014 - Jun 2015
+        quote: >
+          A software division of Dun & Bradstreet, the Cloud Innovation Center was responsible for building a new generation of global analytics products in the cloud.
+        description: | # this will include new lines to allow paragraphs
+          During my time here I initially focused on writing selenium tests for our existing test framework. Later on I transitioned to focusing purely on API's and created our automated Rest API testing framework.
+
+          <b>Accomplishments</b>
+            - Create a automated Rest Api Test framework which was used as the basis for other future projects
+            - Updated and managed cloud based test servers
+            - Created and maintained Jenkins builds
+            - Performed build acceptance testing
+
+            <mark>Technology Stack</mark><br>
+            java8, jUnit, gradle, OAuth1, eclipse, docker, postman, RestClient
+
+      - layout: left
+        title: Canada Border Services Agency
+        link: https://cbsa-asfc.gc.ca/menu-eng.html
+        # link_text: boringcompany.com
+        sub_title: Software Developer
+        caption: Sept 2011 - Sep 2012
+        quote: >
+          Description/tagline explaing what the company does
+        description: | # this will include new lines to allow paragraphs
+          I was brought on to help transition legacy software to the newer platform being rolled out across the Canada. The bulk of this transition required focus on creating 2 new information management systems to be used across BC and eventually propagate across Canada.
+
+          <b>Accomplishments</b>
+            - Designed and developed new web‐based, critical law‐enforcement software
+            - Integrated new software with legacy national applications
+            - Maintained and tested existing software systems
+            - Migrated legacy software to newer platforms and corresponding API’s
+            - Wrote automated build scripts using Ant
+            - Gathered requirements from multiple clients each of which performs a different job function
+            - Trained and directed a student developer in government software development practices
+
+            <mark>Technology Stack</mark><br>
+            jbossAS, javaEE, JSP, hibernate, mySQL, LDAP, OAuth1, eclipse, ant, IIS, windows server 2008, jQuery, visual basic for applications (vba), microsoft access, powerBuilder, microsoft excel
+
+      - layout: left
+        title: SAP
+        link: https://www.sap.com/
+        # link_text: boringcompany.com
+        sub_title: Software Test Engineer
+        caption: Jan 2010 - Aug 2010
+        quote: >
+          Description/tagline explaing what the company does
+        description: | # this will include new lines to allow paragraphs
+          During my time here I focused on creating our Selenium testing framework and implementing tests within the framework. I performed both manual testing as well as automated testing.
+          
+          <b>Accomplishments</b>
+            - Worked on a new cloud based enterprise software, its direct competitor was Google Wave
+            - Created scenario based manual test plans which I would than execute
+            - Performed BAT’s (Build acceptance test) after each new build was released
+            - Ensured new features were developed according to specifications
+            - Designed and wrote our automated Selenium test framework
+            - Designed automated integration tests using Selenium RC and Java
+            - Designed automated tests to be used against our RESTful API using JMeter
+            - Performed basic penetration/security testing through the web UI layer (XSS, SQL Injection, etc...)
+            - Managed our testing servers and deployed new builds to servers
+
+            <mark>Technology Stack</mark><br>
+            Java, selenium rc, jUnit, jMeter, maven, OAuth1, eclipse, centos, private cloud
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: iClicky
+        quote: >
+          iClicky is a quizzing application designed to be used in post-secondary classrooms. The iOS client would be used by students while the remote server would display results in real-time to the professor. There are locality features using both GPS and WiFi along with device security features to ensure attendance and prevent cheating.
+        description: | # this will include new lines to allow paragraphs
+          <b>Technology Stack:</b><br>
+          XCode, Objective-C, iOS, PHP
+        
+      - layout: top-middle
+        title: Distributed Robots
+        quote: >
+          In this programming competition the goal was to take a sequential based multi robot simulation and create an optimized version. This was done through algorithm optimizations, threading, compiler optimizations, and distributing the computations across multiple servers. The distributed system was a hybrid between a P2P system and a client/server architecture.
+        description: | # this will include new lines to allow paragraphs
+          <b>Technology Stack:</b><br>
+          C++, Ubuntu, ZeroMQ, protobuf, p_threads, openGL, Qt
+
+      - layout: top-middle
+        title: Train Puzzle Game
+        link: https://github.com/jessechahal/TrainPuzzle
+        # link_text: Project Website
+        additional_links:
+          - title:  jessechahal/workstationsetup
+            icon: fab fa-github
+            url: https://github.com/jessechahal/TrainPuzzle
+          # - title:  Github page for project (eg. jessechahal/workstationsetup)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This game was commissioned by a client. The game requires users to place track on a grid style map in order to get a train to take items to one or more stations. I worked with a group of 8 developers and acted as the lead backend architect as well as the code quality analyst.
+        description: | # this will include new lines to allow paragraphs
+          <b>Technology Stack:</b><br>
+          Java, Swing, JUnit, eclipse, svn
+
+      - layout: top-middle
+        title: Decaf Compiler
+          # - title:  Github page for project (eg. jessechahal/workstationsetup)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Decaf is a strongly typed, object-oriented language resembling a subset of Java. Flex/lex was used to create a lexical analyzer using regular expressions to tokenize the source code. Bison was used to create the parser which read input from the lexical analyzer. llvm was used to create the semantic analyzer, with input from the parser, allowed the generation of a unique compiler. With the power of llvm it became possible to create compilers for different cpu architectures although in this case the focus was on x86. 
+        description: | # this will include new lines to allow paragraphs
+          <b>Technology Stack:</b><br>
+          C/C++, ubuntu x86, llvm, flex, bison
+
+      - layout: top-middle
+        title: Cellphone Traders
+        quote: >
+          A web information system comparable to craigslist but solely specialized in the sale and trade of cell phones. Allowed automatic phone specification generation based on selected phone model. Mail server that allowed for anonymous contacting of poster. Created a user login and registration system. Created a forum system for cell phone related conversation
+        description: | # this will include new lines to allow paragraphs
+          <b>Technology Stack:</b><br>
+          Ruby on Rails, Linux Mint, mySQL, css, javascript, jquery, ajax
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Simon Fraser University (SFU)
+        caption: 2007 - 2013
+        sub_title: Bachelor of Science -  Computer Science
+        quote: >
+          Simon Fraser University (SFU) is a public research university in British Columbia, Canada. Consistently ranked as Canada's top comprehensive university and named to the Times Higher Education list of 100 world universities under 50.
+        description: | # this will include new lines to allow paragraphs
+          I majored in Software Systems, sometimes referred to as Software Engineering at other schools.
+          
+          Examples of some of the courses I have taken:
+          - Database Systems
+          - Distributed Systems
+          - Artificial Intelligence Survey
+          - User Interface Design
+          - Software Engineering
+          - Software Development Methods
+          - Web-based Information Systems
+          - Principles of Compiler Design
+          - Networking Principals
+          - Software Quality Assurance
+          - Data Structures
+          - Web based Information Systems
+          - Comparative Programming Languages
+
+      - layout: left
+        title: 7 Gate Academy
+        caption: Oct 2018 - Dec 2018
+        sub_title: Blockchain Bootcamp
+        quote: >
+          S7 Gate Academy is a bootcamp that formed out of 7 Gate Ventures, a VC firm. 
+        description: | # this will include new lines to allow paragraphs
+          7 Gate Academy is a bootcamp that formed out of 7 Gate Ventures, a VC firm. 
+
+          - Went through the details of different cryptography primitives and different hashing techniques.
+            - Keccak vs BLAKE2, SHA-3
+            - synchronous and asynchronous encryption techniques
+            - Elliptic Curve Digital Signature Algorithm (ECDSA)
+          - Inner implementation details of blockchain and related technologies.
+            - Bitcoin - Proof of Work (PoW), UTXO 
+            - Ethereum - EVM, Solidity, PoW, Proof of stake, Whisper, Truffle-framework
+            - Zcash - zkSNARKS
+            - Layer 2 scaling technologies: sidechains, channels
+            - Decentralized Exchanges - 0x, InterLedger
+            - IPFS - Filecoin
+          - Performed security reviews of Ethereum Smart Contracts and then proceeded to take control of  them on Ropsten TestNet (Pen/WhiteHat Testing). 
+          - Had many blockchain focused companies come in and explain their technical solutions 
+          - Technical Analysis (TA) strategies used by cryptocurrency traders.
+            - TA patterns and indicators
+            - Algo trading using custom made bots
+          - Business decisions many blockchain focused companies have to deal with
+            - Legal compliance - KYC
+            - Fund raising strategies
+          - Implemented our own blockchain focused technologies 
+  
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Movies & TV
+      - Boardgames
+      - Home automation
+      - All things technology
+
+
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
