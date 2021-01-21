@@ -16,13 +16,13 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  jessechahal
+#github_username:  jessechahal
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: jessechahal
+#linkedin_username: jessechahal
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -31,9 +31,55 @@ linkedin_username: jessechahal
 
 # Additional icon links
 additional_links:
+# put here instead of using included ones because
+# didn't like link text/pop_up. otherwise its the same
+- title: Github
+  icon: fab fa-github
+  url: https://github.com/jessechahal
+- title: Linkedin
+  icon: fab fa-linkedin
+  url: https://www.linkedin.com/in/jessechahal/
+- title: Angel list
+  icon: fab fa-angellist
+  url: https://angel.co/u/jessechahal
+#- title: CV
+  #icon: far fa-address-card
+  #url: jessechahal.github.io
+  #url: \{\{ site.baseurl \}\}
 - title: jessechahal.com
   icon: fas fa-globe
   url: jessechahal.com
+  #Hired is canadian site
+  #no logo in FontAwesome, stole an H logo from hire-a-helper
+  #- title: Hired
+  #  icon: fab fa-hire-a-helper
+  #  url: example.com/jessechahal
+  
+  #- title: Docker
+  #  icon: fab fa-docker
+  #  url: https://hub.docker.com/u/jessechahal
+  
+  #- title: Hacker News
+  #  icon: fab fa-hacker-news
+  #  url: example.com/jessechahal
+
+  #- title: Medium
+  #  icon: fab fa-medium
+  #  url: example.com/jessechahal
+
+  #- title: PyPi
+  #  icon: fab fa-python
+  #  url: example.com/jessechahal
+
+  #- title: npm
+  #  icon: fab fa-npm
+  #  url: example.com/jessechahal
+
+  #- title: Kaggle
+  #  icon: fab fa-kaggle
+  #  url: example.com/jessechahal
+
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
