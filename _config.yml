@@ -304,7 +304,7 @@ content:
       - layout: left
         title: Simon Fraser University (SFU)
         caption: 2007 - 2013
-        sub_title: Bachelor of Science -  Computer Science
+        sub_title: Bachelor of Science - Computer Science, Software Systems
         quote: >
           Simon Fraser University (SFU) is a public research university in British Columbia, Canada. Consistently ranked as Canada's top comprehensive university and named to the Times Higher Education list of 100 world universities under 50.
         description: | # this will include new lines to allow paragraphs
@@ -319,7 +319,7 @@ content:
           - Software Development Methods
           - Web-based Information Systems
           - Principles of Compiler Design
-          - Networking Principals
+          - Networking Principles
           - Software Quality Assurance
           - Data Structures
           - Web based Information Systems
@@ -332,8 +332,6 @@ content:
         quote: >
           S7 Gate Academy is a bootcamp that formed out of 7 Gate Ventures, a VC firm. 
         description: | # this will include new lines to allow paragraphs
-          7 Gate Academy is a bootcamp that formed out of 7 Gate Ventures, a VC firm. 
-
           - Went through the details of different cryptography primitives and different hashing techniques.
             - Keccak vs BLAKE2, SHA-3
             - synchronous and asynchronous encryption techniques
